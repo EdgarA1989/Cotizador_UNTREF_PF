@@ -60,7 +60,7 @@ export default function Historial() {
               <td>{cotizacion.propiedad}</td>
               <td>{cotizacion.ubicacion}</td>
               <td>{cotizacion.metrosCuadrados}</td>
-              <td>{cotizacion.poliza}</td>
+              <td>$ {cotizacion.poliza}</td>
             </tr>
           ))}
         </tbody>
