@@ -166,7 +166,7 @@ export default function Form() {
         onChange={(e) => setMetrosCuadrados(e.target.value)}/>
 
         <StyledButton onClick={handleCotizar}>
-          {loading ? <img src="../../images/Ellipsis-1.1s-44px.gif" width="40px" /> : "Cotizar"}
+          {loading ? <img src="/Ellipsis-1.1s-44px.gif" width="40px" /> : "Cotizar"}
         </StyledButton>
         <div style={styles.cotizador}>
           <StyledSpan>Precio estimado: ${span}</StyledSpan> 
